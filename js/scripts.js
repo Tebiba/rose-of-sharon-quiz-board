@@ -12,22 +12,16 @@ $(document).ready(function() {
       var question9 = parseInt($('input[name = "question1"]:checked').value);
       var question10 = parseInt($('input[name = "question1"]:checked').value);
 
+      var result = question1 + question2 + question3 + question4 + question5 + question6 + question7 + question8 + question9 + question10;
+
+      $("grade").text(result);
+      document.getElementById(output)
 
 
 
 
-document.getElementById("form2").onsubmit=function(){
-    question1 = document.getElementByName("question1");
-  for (i = 0; i < question1.length; i++) {
-    if (question1[1].checked) {
-      vscore = parseInt($(variablevar[1].value);
-    }
-  }
 
-}
-
-
-
+d
 
 /*
 $(document).ready(function() {
