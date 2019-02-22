@@ -35,21 +35,25 @@
 
 
       <form id="form2">
-        <p>1. Inside which HTML element do we put the JavaScript?</p>
-          <div><label for="var_string"><input type="radio" name="question1" value="0" id="var_string"/> js.</label></div>
-          <div><label for="var_join"><input type="radio" name="question1" value="0" id="var_join"/>   javascript</label></div>
-          <div><label for="var_info"><input type="radio" name="question1" value="0" id="var_info"/>  scripting</label></div>
-          <div><label for="var_condition"><input type="radio" name="question1" value="10" id="var_condition"/>  script</label></div>
-            <br>
-            <br>
+        <div class="question1">
+          <p>1. Inside which HTML element do we put the JavaScript?</p>
+            <div><label><input type="radio" name="question1" value="0">js</label></div>
+            <div><label><input type="radio" name="question1" value="0">javascript</label></div>
+            <div><label><input type="radio" name="question1" value="0">scripting</label></div>
+            <div><label><input type="radio" name="question1" value="10">script</label></div>
+              <br>
+              <br>
+        </div>
 
-        <p>2. Which of the following can't be done with client-side JavaScript?</p>
-          <div><label for="var_string"><input type="radio" name="question2" value="0" id="var_string"/>Validating a form.</label></div>
-          <div><label for="var_join"><input type="radio" name="question2" value="0" id="var_join"/>Sending a form's contents by email</label></div>
-          <div><label for="var_info"><input type="radio" name="question2" value="10" id="var_info"/>Storing the form's contents to a database file on the server</label></div>
-          <div><label for="var_condition"><input type="radio" name="question2" value="0" id="var_condition"/>None of the above</label></div>
+        <div class="question2">
+          <p>2. Which of the following can't be done with client-side JavaScript?</p>
+            <div><label for="var_string"><input type="radio" name="question2" value="0" id="var_string"/>Validating a form.</label></div>
+            <div><label for="var_join"><input type="radio" name="question2" value="0" id="var_join"/>Sending a form's contents by email</label></div>
+            <div><label for="var_info"><input type="radio" name="question2" value="10" id="var_info"/>Storing the form's contents to a database file on the server</label></div>
+            <div><label for="var_condition"><input type="radio" name="question2" value="0" id="var_condition"/>None of the above</label></div>
             <br>
             <br>
+        </div>
 
         <p>3. What are capabilities of functions in JavaScript?</p>
           <div><label for="var_string"><input type="radio" name="question3" value="0" id="var_string"/>Return a value.</label></div>
@@ -99,18 +103,18 @@
             <br>
 
         <p>9. How does a FOR loop start?</p>
-          <div><label for="var_string"><input type="radio" name="question9" value="10" id="var_string"/>for (i = 0; i <= 5; i++)</label></div>
-          <div><label for="var_join"><input type="radio" name="question9" value="0" id="var_join"/>for (i <= 5; i++)</label></div>
-          <div><label for="var_info"><input type="radio" name="question9" value="0" id="var_info"/>for i = 1 to 5</label></div>
-          <div><label for="var_condition"><input type="radio" name="question9" value="0" id="var_condition"/>for (i = 0; i <= 5)</label></div>
+          <div><label><input type="radio" name="question9" value="10" id="var_string"/>for (i = 0; i <= 5; i++)</label></div>
+          <div><label><input type="radio" name="question9" value="0" id="var_join"/>for (i <= 5; i++)</label></div>
+          <div><label><input type="radio" name="question9" value="0" id="var_info"/>for i = 1 to 5</label></div>
+          <div><label><input type="radio" name="question9" value="0" id="var_condition"/>for (i = 0; i <= 5)</label></div>
             <br>
             <br>
 
         <p>10. How to write an IF statement for executing some code if "i" is NOT equal to 5?</p>
-          <div><label for="var_string"><input type="radio" name="question10" value="0" id="var_string"/>if (i <> 5)</label></div>
-          <div><label for="var_join"><input type="radio" name="question10" value="0" id="var_join"/>if i =! 5 then</label></div>
-          <div><label for="var_info"><input type="radio" name="question10" value="0" id="var_info"/>if i <> 5</label></div>
-          <div><label for="var_condition"><input type="radio" name="question10" value="10" id="var_condition"/>if (i != 5)</label></div>
+          <div><label><input type="radio" name="question10" value="0" id="var_string"/>if (i <> 5)</label></div>
+          <div><label><input type="radio" name="question10" value="0" id="var_join"/>if i =! 5 then</label></div>
+          <div><label><input type="radio" name="question10" value="0" id="var_info"/>if i <> 5</label></div>
+          <div><label><input type="radio" name="question10" value="10" id="var_condition"/>if (i != 5)</label></div>
             <br>
             <br>
 
@@ -135,10 +139,6 @@
 
       </div>
 
-
-      <div id="quiz"></div>
-        <button id="submit">Get Results</button>
-      <div id="results"></div>
 
   </body>
 </html>

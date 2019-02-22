@@ -1,5 +1,35 @@
 
+$(document).ready(function() {
+    $("input[type='button']").click(function() {
+      var question1 = parseInt($('input[name = "question1"]:checked').value);
+      var question2 = parseInt($('input[name = "question1"]:checked').value);
+      var question3 = parseInt($('input[name = "question1"]:checked').value);
+      var question4 = parseInt($('input[name = "question1"]:checked').value);
+      var question5 = parseInt($('input[name = "question1"]:checked').value);
+      var question6 = parseInt($('input[name = "question1"]:checked').value);
+      var question7 = parseInt($('input[name = "question1"]:checked').value);
+      var question8 = parseInt($('input[name = "question1"]:checked').value);
+      var question9 = parseInt($('input[name = "question1"]:checked').value);
+      var question10 = parseInt($('input[name = "question1"]:checked').value);
 
+
+
+
+
+document.getElementById("form2").onsubmit=function(){
+    question1 = document.getElementByName("question1");
+  for (i = 0; i < question1.length; i++) {
+    if (question1[1].checked) {
+      vscore = parseInt($(variablevar[1].value);
+    }
+  }
+
+}
+
+
+
+
+/*
 $(document).ready(function() {
   $("form2").onsubmit=function() {
       question1 = parseInt($('input[name = "question1"]:checked').value);
