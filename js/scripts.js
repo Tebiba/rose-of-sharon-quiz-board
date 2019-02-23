@@ -14,17 +14,15 @@ $(document).ready(function() {
 
       var result = question1 + question2 + question3 + question4 + question5 + question6 + question7 + question8 + question9 + question10;
 
-      document.getElementById("output").innerHTML = $("#display").text("You scored " + result + " points!");
+      document.getElementById("result").innerHTML = $("#display").text("You scored " + result + " points!");
 
       if (result == 0) {result2 = "I don't think you studied."};
       if (result == 30) {result2 = "You need to spend more time. Try again."};
       if (result == 50) {result2 = "I think you could do better. Try again."};
       if (result == 70) {result2 = "So close. Try again."};
       if (result == 100) {result2 = "Excellent! You're a JavaScript pro!"};
+
       document.getElementById("grade2").innerHTML = result2;
-
-
-
 
 
     });
