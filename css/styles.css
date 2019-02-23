@@ -7,5 +7,8 @@ display: block;
 input {
 width: 30px;
 margin-left: 20px;
+}
 
+#grade {
+  display: none;
 }
