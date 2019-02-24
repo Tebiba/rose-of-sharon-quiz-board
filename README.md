@@ -1,64 +1,50 @@
-# Quiz Board
+## Quiz Board
+This is a quiz project that allows the user to answer questions from multiple choices, 24th February, 2018
 
-######This is a quiz project that allows the user to answer questions from multiple choices, 24th February, 2018
+### By Tabitha Obara
 
-###### By Tabitha Obara
-
-#### Description
+### Description
 This is an online quiz website that hosts questions on JavaScript, allowing the user to select answers in radio buttons and in the end given an output of their score.
 
-
-Setup/Installation Requirements
+### Setup/Installation Requirements
 To start using this project use the following commands:
-Here is the repository link: https://github.com/Tebiba/rose-of-sharon-quiz-board.git
-Fork the repository
-git clone the repository
-git init
+* Here is the repository link: https://github.com/Tebiba/rose-of-sharon-quiz-board.git
+* Fork the repository
+* git clone the repository
+* git init
 
+### Behavior Driven Development
+Behavior (The program should handle): When user answers all questions right
+Input Example (When it receives): Answers all questions
+Output Example (It should return): You scored 100 points!
 
+Behavior (The program should handle): When user answers some questions and some wrong
+Input Example (When it receives): Answers all questions (a computation is done for the right answers)
+Output Example (It should return): You scored ( ) points!
 
-Behavior Driven Development
+Behavior (The program should handle): ( ) being the total points from the correct answers
+Input Example (When it receives): When user does not answer all questions; No attempt, or half attempt
+Output Example (It should return): Nan
 
-Behavior
-(The program should handle)
-Input Example
-(When it receives)
-Output Example
-(It should return)
-When user answers all questions right
-Answers all questions
-You scored 100 points!
-When user answers some questions and some wrong
-Answers all questions (a computation is done for the right answers)
-You scored (_) points!
-(_) being the total points from the correct answers
-When user does not answer all questions
-No attempt, or half attempt
-Nan
+### Technologies used include:
+* HTML
+* CSS
+* JavaScript
+* BootStrap
+* jQuery
 
-
-Technologies used include:
-
-HTML
-CSS
-JavaScript
-BootStrap
-jQuery
-
-Known Bugs
+### Known Bugs
 The user must attempt all questions to get a final score, if any question is left unanswered the score will display as nan.
 
+### Link to Live Website:
 
-
-Link to Live Website:
-
-Contact details:
+### Contact details:
 Send queries to tebiba@gmail.com
 
-License:
+### License:
 MIT
 
-Copyright (c) {2019} Tabitha Obara
+###Copyright (c) {2019} Tabitha Obara
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all
