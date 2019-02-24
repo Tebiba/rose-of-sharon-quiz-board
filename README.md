@@ -1,10 +1,10 @@
-Quiz Board
+# Quiz Board
 
-This is a quiz project that allows the user to answer questions from multiple choices, 24th February, 2018
+######This is a quiz project that allows the user to answer questions from multiple choices, 24th February, 2018
 
-By Tabitha Obara
+###### By Tabitha Obara
 
-Description
+#### Description
 This is an online quiz website that hosts questions on JavaScript, allowing the user to select answers in radio buttons and in the end given an output of their score.
 
 
@@ -12,7 +12,8 @@ Setup/Installation Requirements
 To start using this project use the following commands:
 Here is the repository link: https://github.com/Tebiba/rose-of-sharon-quiz-board.git
 Fork the repository
-git clone the repository -
+git clone the repository
+git init
 
 
 
