@@ -24,7 +24,7 @@ $(document).ready(function() {
 
       document.getElementById("grade2").innerHTML = result2;
 
-      event.preventDefault(); 
+      event.preventDefault();
     });
 
   });
