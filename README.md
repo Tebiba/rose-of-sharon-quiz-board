@@ -14,17 +14,17 @@ To start using this project use the following commands:
 * git init
 
 ### Behavior Driven Development
-Behavior (The program should handle): When user answers all questions right
-Input Example (When it receives): Answers all questions
-Output Example (It should return): You scored 100 points!
+1. **Behavior (The program should handle):** When user answers all questions right/
+**Input Example (When it receives):** Answers all questions/
+**Output Example (It should return):** You scored 100 points!
 
-Behavior (The program should handle): When user answers some questions and some wrong
-Input Example (When it receives): Answers all questions (a computation is done for the right answers)
-Output Example (It should return): You scored ( ) points!
+2. **Behavior (The program should handle):** When user answers some questions and some wrong/
+**Input Example (When it receives):** Answers all questions (a computation is done for the right answers)/
+**Output Example (It should return):** You scored ( ) points!
 
-Behavior (The program should handle): ( ) being the total points from the correct answers
-Input Example (When it receives): When user does not answer all questions; No attempt, or half attempt
-Output Example (It should return): Nan
+3. **Behavior (The program should handle):** being the total points from the correct answers/
+**Input Example (When it receives):** When user does not answer all questions; No attempt, or half attempt/
+**Output Example (It should return):** Nan
 
 ### Technologies used include:
 * HTML
