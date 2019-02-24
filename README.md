@@ -37,16 +37,15 @@ Nan
 
 
 Technologies used include:
-
 HTML
 CSS
 JavaScript
 BootStrap
 jQuery
 
+
 Known Bugs
 The user must attempt all questions to get a final score, if any question is left unanswered the score will display as nan.
-
 
 
 Link to Live Website:
