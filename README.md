@@ -1,4 +1,4 @@
-Quiz Board
+#Quiz Board
 
 This is a quiz project that allows the user to answer questions from multiple choices, 24th February, 2018
 
