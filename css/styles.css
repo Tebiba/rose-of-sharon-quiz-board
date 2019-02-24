@@ -1,12 +1,24 @@
-
+* {
+  margin: 0;
+  padding: 0;
+}
 
 label {
 display: block;
+font-style: normal;
+font-size: 14px;
+font-weight: normal;
+}
+
+p {
+  font-weight: bold;
+  font-style: normal;
 }
 
 input {
 width: 30px;
 margin-left: 20px;
+font-size: 20px;
 }
 
 .button {
@@ -30,11 +42,16 @@ margin-left: 20px;
   height: auto;
 }
 
-#header {
-  background: url(../img/slide1.jpg);
+#background {
+  background: url(../img/hero.jpg);
   height:100vh;
   background-position: top left;
   background-size: cover;
   margin: 0px;
   padding:0px;
+}
+
+.questionfont{
+  font: serif;
+
 }
